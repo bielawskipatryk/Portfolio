@@ -1,0 +1,619 @@
+/*----RESET Browsers Styles-----*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Reset end - Styling Start Point */
+.clearfix::after, clearfix::befor {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header*/
+
+header {
+    background-color: black;
+    height: 40px;
+    line-height: 40px;
+}
+
+.logo {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    float: left;
+}
+
+.logo span {
+    color: #28CFB5;
+    font-size: 20px;
+    font-weight: 800;
+}
+/*Top slider*/
+.top {
+    float: right;
+}
+
+.top li{
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/*Slider*/
+
+.top_slider {
+    height: 600px;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 39%, #ffffff 39%, #e5e5e5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 39%,#ffffff 39%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 39%,#ffffff 39%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+}
+
+.container #slider_left_side {
+    width: 600px;
+    position: absolute;
+    top: 180px;
+}
+
+.container #slider_left_side #chair {
+    width: 600px;
+    height: 400px;
+   }
+
+.container #slider_left_side #arrow {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 250px;
+   }
+
+.container #slider_right_side {
+    width: 600px;
+    height: 330px;
+    float: left;
+    top: 200px;
+    position: relative;
+    left: 480px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+#slider_right_side span {
+    color: #28CFB5;
+    font-weight: 800;
+}
+
+.container #slider_right_side p {
+    color: #7E7E7E;
+    font-size: 18px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.container #slider_right_side .button {
+    border: 2px solid #28CFB5;
+    background-color: #28CFB5;
+    color: white;
+    border-radius: 10px;
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    left: 130px;
+    top: 5px;
+}
+
+.container #slider_right_side .button a {
+    color: white;
+    text-decoration: none;
+}
+
+.container #slider_right_side #arrow {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 350px;
+    bottom: 110px;
+}
+
+/*Section middle*/
+
+.middle_section {
+    height: 450px;
+    background-color: #FFF;
+    padding-top: 30px;
+}
+
+.middle_section img, .middle_section div {
+    float: left;
+}
+
+
+/*Boxes*/
+
+#box1 {
+    padding: 10px 10px 10px 0;
+    width: 380px;
+    height: 280px;
+    position: relative;
+}
+
+#box1 > img {
+    width: 380px;
+    height: 280px;
+    z-index: 0;
+    position: relative;
+}
+
+
+#box2 {
+    padding: 10px 15px 10px 10px;
+    width: 380px;
+    height: 280px;
+    position: relative;
+}
+
+#box2 > img {
+    width: 380px;
+    height: 280px;
+    position: relative;
+    z-index: 0;
+}
+
+#box3 {
+    padding: 20px 0 20px 14px;
+    border: 1px solid rgba(0,0,0,0.1);
+    opacity: 0.9;
+    width: 380px;
+    height: 280px;
+    position: relative;
+    float: right;
+    top: 10px;
+    box-sizing: content-box;
+}
+
+#box3_header h2 {
+    border-bottom: 10px solid #28CFB5;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#box3 p {
+    position: absolute;
+    top: 80px;
+    float: right;
+}
+
+/*Transparent bars with image headers*/
+
+.transparent_bar {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255,255,255,0.3);
+    z-index: 1;
+    position: relative;
+    top: -90px;
+    padding: 0 0 0 20px;
+}
+
+.text_on_bar{
+    border-bottom: 10px solid #28CFB5;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    padding: 10px 0 0 0px;
+    opacity: 0.9;
+    width: 160px;
+}
+
+.text_on_bar h2 span {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+/*Middle section 2*/
+
+.middle_section2 {
+    height: 900px;
+    background-color: #F1F1F1;
+    
+}
+
+h3 {
+    border-bottom: 10px solid #28CFB5;
+    color: rgba(0,0,0,0.6);
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    padding: 40px 0 0 0px;
+    width: 260px;
+    text-transform: uppercase;
+}
+
+/*Dot boxes style*/
+
+.button {
+  border: 1px solid #28CFB5;;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #28CFB5;;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    bottom: 90px;
+    cursor: pointer;
+}
+
+.button2 {
+    border: 1px solid #28CFB5;
+    border-radius: 10px;
+    color: #28CFB5;
+    background-color: #fff;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    bottom: 140px;
+    cursor: pointer;
+}
+
+.button3 {
+  border: 1px solid #28CFB5;;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #28CFB5;;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    bottom: 190px;
+    cursor: pointer;
+}
+
+.second {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  float: left;
+}
+
+.second .box1, .second .box2, .second .box3 {
+  width: 370px;
+  height: 600px;
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+}
+
+.box1 {
+    margin-right: 30px;
+    border: 3px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.box2 {
+    margin-right: 29px;
+    border: 3px solid #28CFB5;
+    border-radius: 5px;
+    background-color: #28CFB5;
+}
+
+.box3 {
+    border: 3px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.box1 h4, .box3 h4 {
+    color: #28CFB5;
+    font-size: 23px;
+    position: relative;
+    top: 35px;
+    text-transform: uppercase;
+}
+
+.box2 h4 {
+    color: #fff;
+    font-size: 23px;
+    position: relative;
+    top: 35px;
+    text-transform: uppercase;
+}
+
+.circle1 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px solid rgba(0,0,0,0.1);
+    position: absolute;
+    z-index: 1;
+    left: 150px;
+    top: -40px;
+}
+
+.circle2 {
+    border: 5px solid #28CFB5;
+    width: 50px;
+    height: 50px;
+    background-color: #28CFB5;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    left: 150px;
+    top: -40px;
+}
+
+.dot1 {
+  width: 25px;
+  height: 25px;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.1);
+  position: absolute;
+  z-index: 2;
+  left: 164px;
+  top: -25px;
+}
+
+.dot2 {
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  position: absolute;
+  z-index: 2;
+  left: 165px;
+  top: -25px;
+}
+
+.circle_box1 p, .circle_box2 p {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    font-size: 43px;
+    font-weight: 700;
+    padding: 20px;
+    margin-bottom: 350px;
+    line-height: 40px;
+}
+
+.circle_box1 p {
+    border: 4px solid rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.2);
+}
+
+.circle_box2 p {
+    border: 4px solid #28CFB5;
+    background-color: white;
+    color: #28CFB5;
+}
+
+.circle_box1 p span, .circle_box2 p span {
+    font-size: 20px;
+}
+
+.services1 li {
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.3);
+    position: relative;
+    bottom: 240px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.services2 li {
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.3);
+    position: relative;
+    padding: 10px;
+    z-index: 1;
+}
+
+.services1 li:nth-child(2n), .services2 li:nth-child(2n) {
+    background-color: rgba(241,241,241,0.8);
+}
+
+.services1 li:nth-child(2n + 1) {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.services2 li:nth-child(2n + 1) {
+    background-color: rgb(255,255,255);
+}
+
+.services2 {
+    position: relative;
+    bottom: 240px;
+    z-index: 0;
+    background-color: white;
+}
+
+/*end of dot boxes */
+
+/*Middle section 3*/
+
+.middle_section3 {
+    height: 700px;
+    background-color: #fff;
+}
+
+.middle_section3 img {
+    width: 400px;
+    height: 300px;
+    float: right;
+    position: static;
+}
+
+form #firstName{
+    position: relative;
+    float: left;
+    width: 750px;
+    height: 75px;
+    padding-left: 20px;
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: 400;
+    opacity: 0.5;
+    border: 2px solid #28CFB5;
+}
+
+form #surname{
+    position: relative;
+    float: left;
+    width: 750px;
+    height: 75px;
+    padding-left: 20px;
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: 400;
+    opacity: 0.5;
+    border: 2px solid #28CFB5;
+}
+
+form #message{
+    position: relative;
+    float: left;
+    width: 750px;
+    height: 255px;
+    padding-left: 20px;
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: 400;
+    opacity: 0.5;
+    border: 2px solid #28CFB5;
+}
+
+form #checkbox {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 80px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    border: 2px solid #28CFB5;
+    color: #28CFB5;
+    background-image: url("../images/form_ok.jpg");
+    cursor: pointer;
+}
+
+#checkbox_paragraf {
+    position: relative;
+    left: 165px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    opacity: 0.3;
+}
+
+form #submit {
+    position: relative;
+    top: 60px;
+    float: right;
+    font-size: 35px;
+    font-weight: 600;
+    border: 5px solid #28CFB5;
+    border-radius: 10px;
+    background-color: #28CFB5;
+    color: white;
+    width: 350px;
+    height: 75px;
+    cursor: pointer;
+}
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+}
+
+#copyright {
+    width: 50%;
+    float: left;
+}
+
+#copyright p {
+    opacity: 0.3;
+    font-size: 17px;
+    font-weight: 600
+}
+
+#bottom_nav_social {
+    width: 50%;
+    float: right;
+}
+
+#bottom_nav_social img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    position: relative;
+    left: 300px;
+    cursor: pointer;
+}
+
+#bottom_nav_social p {
+    float: right;
+    font-size: 17px;
+    font-weight: 600;
+    opacity: 0.4;
+    text-transform: uppercase;
+    position: relative;
+    top: 10px;
+}
+
+#bottom_nav_social p span {
+     font-weight: 800; 
+}
